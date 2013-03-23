@@ -1,0 +1,6 @@
+*.log
+/target
+/grails-jdbc-pool*.zip
+/plugin.xml
+.settings
+web-app
