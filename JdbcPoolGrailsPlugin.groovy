@@ -8,8 +8,7 @@ class JdbcPoolGrailsPlugin {
 
 	def license = 'APACHE'
 	def developers = [[name: 'Lari Hotari', email: 'lari.hotari@sagire.fi'],
-	                  [name: 'Burt Beckwith', email: 'beckwithb@vmware.com'],
-                    [name: 'Thomas Bittermann', email: 'grails@cobonet.de']]
+	                  [name: 'Burt Beckwith', email: 'beckwithb@vmware.com']]
 	def issueManagement = [system: 'GitHub', url: 'https://github.com/burtbeckwith/grails-jdbc-pool/issues']
 	def scm = [url: 'https://github.com/burtbeckwith/grails-jdbc-pool']
 
