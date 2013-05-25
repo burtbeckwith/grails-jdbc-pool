@@ -1,5 +1,5 @@
 class JdbcPoolGrailsPlugin {
-	def version = '7.0.37'
+	def version = '7.0.40'
 	def grailsVersion = '2.0 > *'
 	def title = 'Tomcat JDBC Pool plugin'
 	def description = 'Replaces default Grails Commons DBCP Pool with Tomcat JDBC Pool (https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)'
@@ -8,7 +8,8 @@ class JdbcPoolGrailsPlugin {
 
 	def license = 'APACHE'
 	def developers = [[name: 'Lari Hotari', email: 'lari.hotari@sagire.fi'],
-	                  [name: 'Burt Beckwith', email: 'beckwithb@vmware.com']]
+	                  [name: 'Burt Beckwith', email: 'beckwithb@vmware.com'],
+                    [name: 'Thomas Bittermann', email: 'grails@cobonet.de']]
 	def issueManagement = [system: 'GitHub', url: 'https://github.com/burtbeckwith/grails-jdbc-pool/issues']
 	def scm = [url: 'https://github.com/burtbeckwith/grails-jdbc-pool']
 
