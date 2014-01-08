@@ -13,11 +13,15 @@ grails.project.dependency.resolution = {
 
 	dependencies {
 
-		runtime 'org.apache.tomcat:tomcat-jdbc:7.0.40', {
+		String tomcatVersion = '7.0.47'
+
+		runtime "org.apache.tomcat:tomcat-jdbc:$tomcatVersion", {
 			excludes 'tomcat-juli'
 		}
 
-		runtime 'org.apache.tomcat:tomcat-juli:7.0.40'
+		runtime "org.apache.tomcat:tomcat-juli:$tomcatVersion", {
+			transitive = false
+		}
 	}
 
 	plugins {
